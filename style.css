@@ -27,7 +27,6 @@ body {
 }
 
 article {
-	text-align: justify;
 	margin: 40px;
 	max-width: 90ch;
 	scroll-margin-top: calc(6ch + 13pt + 10px + 40px);
