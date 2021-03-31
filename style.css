@@ -9,7 +9,7 @@ html {
 	}
 }
 
-p, dt, dd {
+p, dt, dd, li {
     font-size: 13pt;
 }
 
