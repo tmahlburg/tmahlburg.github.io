@@ -1,0 +1,78 @@
+html {
+	scroll-behavior: smooth;
+	font-family: sans;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+p, dt, dd {
+    font-size: 12pt;
+}
+
+body {
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+@media (min-width: 900px) {
+    body {
+        display: flex;
+    }
+}
+
+article {
+	text-align: justify;
+	margin: 40px;
+	max-width: 90ch;
+	scroll-margin-top: calc(6ch + 12pt + 10px + 40px);
+}
+
+@media (min-width: 900px) {
+    article {
+        scroll-margin-top: 40px;
+    }
+}
+
+article, nav {
+	background-color: white;
+	border: 5px solid black;
+	padding: 3ch;
+}
+
+nav {
+	margin: 40px;
+	height: 100%;
+	padding-left: 6ch;
+	padding-right: 6ch;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+@media (min-width: 900px) {
+    nav {
+        top: 40px;
+        margin-right: 0;
+    }
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+@media (min-width: 900px) {
+    nav ul li {
+        display: list-item;
+    }
+}
