@@ -10,7 +10,7 @@ html {
 }
 
 p, dt, dd {
-    font-size: 12pt;
+    font-size: 13pt;
 }
 
 body {
@@ -30,7 +30,7 @@ article {
 	text-align: justify;
 	margin: 40px;
 	max-width: 90ch;
-	scroll-margin-top: calc(6ch + 12pt + 10px + 40px);
+	scroll-margin-top: calc(6ch + 13pt + 10px + 40px);
 }
 
 @media (min-width: 900px) {
