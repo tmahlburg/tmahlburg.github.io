@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    font-family: sans;
+    font-family: "DejaVu Sans", sans-serif, "Liberation Sans", "Arial";
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
@@ -20,10 +20,53 @@ p, dt, dd, li {
 }
 
 body {
-    background-image: url("background.jpg");
+    background-color: darkgray;
+    background-image: url("background1080.jpg");
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
+}
+
+@media (min-width: 1081px) {
+    body {
+        background-image: url("background1280.jpg")
+    }
+}
+
+@media (min-width: 1281px) {
+    body {
+        background-image: url("background1366.jpg")
+    }
+}
+
+@media (min-width: 1367px) {
+    body {
+        background-image: url("background1440.jpg")
+    }
+}
+
+@media (min-width: 1441px) {
+    body {
+        background-image: url("background1600.jpg")
+    }
+}
+
+@media (min-width: 1601px) {
+    body {
+        background-image: url("background1920.jpg")
+    }
+}
+
+@media (min-width: 1921px) {
+    body {
+        background-image: url("background2560.jpg")
+    }
+}
+
+@media (min-width: 2561px) {
+    body {
+        background-image: url("background3840.jpg")
+    }
 }
 
 @media (min-width: 900px) {
