@@ -21,7 +21,7 @@ p, dt, dd, li {
 
 body {
     background-color: darkgray;
-    background-image: url("background1080.jpg");
+    background-image: url("background1080.webp");
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
@@ -29,43 +29,43 @@ body {
 
 @media (min-width: 1081px) {
     body {
-        background-image: url("background1280.jpg")
+        background-image: url("background1280.webp")
     }
 }
 
 @media (min-width: 1281px) {
     body {
-        background-image: url("background1366.jpg")
+        background-image: url("background1366.webp")
     }
 }
 
 @media (min-width: 1367px) {
     body {
-        background-image: url("background1440.jpg")
+        background-image: url("background1440.webp")
     }
 }
 
 @media (min-width: 1441px) {
     body {
-        background-image: url("background1600.jpg")
+        background-image: url("background1600.webp")
     }
 }
 
 @media (min-width: 1601px) {
     body {
-        background-image: url("background1920.jpg")
+        background-image: url("background1920.webp")
     }
 }
 
 @media (min-width: 1921px) {
     body {
-        background-image: url("background2560.jpg")
+        background-image: url("background2560.webp")
     }
 }
 
 @media (min-width: 2561px) {
     body {
-        background-image: url("background3840.jpg")
+        background-image: url("background3840.webp")
     }
 }
 
