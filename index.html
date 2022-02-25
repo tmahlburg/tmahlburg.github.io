@@ -1,109 +1,146 @@
 <!DOCTYPE html>
- <html lang="de">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Till Mahlburg</title>
-		<link rel="stylesheet" href="style.css">
-		<!-- TODO: print.css
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Till Mahlburg</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- TODO: print.css
         <link rel="stylesheet" href="/assets/css/print.css" media="print">
-        -->
-		<meta name="description" content="Till Mahlburgs persönliche Webseite">
-		<meta property="og:title" content="Till Mahlburg">
-		<meta property="og:description" content="Till Mahlburgs persönliche Webseite">
-		<meta property="og:image" content="/background1080.jpg">
-		<meta property="og:image:alt" content="Bild einer CDC 6600, dem ersten Rechner, bei dem Interleaved Multithreading eingesetzt wurde.">
-		<meta property="og:locale" content="de_DE">
-		<meta property="og:type" content="website">
-		<meta name="twitter:card" content="summary">
-		<meta property="og:url" content="https://tmahlburg.github.io">
-		<link rel="canonical" href="https://tmahlburg.github.io">
-		<meta name="theme-color" content="#000000">
-
-		<!-- Don't request a favicon -->
-		<link rel="icon" href="data:,">
-	</head>
-	<body>
-		<nav>
-			<ul>
-				<li><a href="#Hallo">Hallo</a></li>
-				<!-- <li><a href="#Lebenslauf">Lebenslauf</a></li> -->
-				<li><a href="#Code">Code</a></li>
-				<li><a href="#Text">Text</a></li>
-				<!-- <li><a href="#Bild">Bild</a></li> -->
-				<li><a href="#Links">Links</a></li>
-				<!-- <li><a href="#Kontakt">Kontakt</a></li> -->
-			</ul>
-		</nav>
-		<main>
-		<article id="Hallo">
-			<h1>Hallo!</h1>
-			<p>
-				Du bist auf der Webseite von Till Mahlburg gelandet. Ich studiere im Moment
-				Informatik im Master und arbeite nebenbei als wissenschaftliche Hilfskraft
-				im IT-Support an der Erziehungswissenschaft der Universität Leipzig. Hier
-				stelle ich <a href="#Code">Projekte</a> vor, die ich entwickle, und
-				<a href="#Text">Arbeiten</a>, die ich geschrieben habe.
-			</p>
-		</article>
-		<article id="Code">
-			<h1>Code</h1>
-			<dl>
-				<dt><a href="https://github.com/tmahlburg/jugendstadtplan" target="_blank"
-				rel="noopener">jugendstadtplan</a></dt>
-				<dd>Diese WebApp ermöglicht Jugendlichen die Erstellung und Verwaltung eines
-				eigenen Stadtplans. Darin können Orte eingezeichnet werden, an denen sie sich
-				wohlfühlen und gern aufhalten. Die Software entstand in Zusammenarbeit mit der
-				<a href="http://jugendimjacobiturm.de" target="_blank" rel="noopener">offenen
-				Jugendarbeit der evangelischen Altstadtgemeinden Greifswalds</a>. Eine aktiv
-				benutzte Version findet sich unter <a
-				href="https://jugendstadtplan-greifswald.de" target="_blank" rel="noopener">
-				jugendstadtplan-greifswald.de</a>.
-				<dt><a href="https://github.com/tmahlburg/picorv32-imt" target="_blank"
-				rel="noopener">picorv32-imt</a> (Entwicklung ruht)</dt>
-				<dd>Ein RISC-V-Prozessor für FPGAs, der im Rahmen meiner Bachelorarbeit
-				entstanden ist. Er basiert auf dem <a
-				href="https://github.com/cliffordwolf/picorv32" target="_blank"
-				rel="noopener">picorv32</a> und erweitert diesen um <a href=
-				"https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)#Interleaved_multithreading"
-				target="_blank" rel="noopener">Interleved Multithreading</a>. Leider ist
-				das Design aktuell nicht synthetisierbar. Wenn ich mal viel Zeit habe,
-				würde ich das gern noch erreichen.</dd>
-				<dt><a href="https://github.com/tmahlburg/kiep" target="_blank"
-				rel="noopener">kiep</a> (Pre-Alpha)</dt>
-				<dd>Ein Tool für die Kommandozeile, mit dem man Webartikel "für immer"
-				aufbewahren kann.</dd>
-				<dt><a href="https://github.com/tmahlburg/tfm" target="_blank"
-				rel="noopener">tfm</a> (Alpha)</dt>
-				<dd>Ein einfacher graphischer Datei-Manager, der das Qt-Toolkit verwendet.</dd>
-				<dt><a href="https://github.com/tmahlburg/mkwiki" target="_blank"
-				rel="noopener">mkwiki</a></dt>
-				<dd>Ein Skript, mit dem man ein statisches Wiki aus einem Ordner
-				mit Markdown-Dateien generieren kann. Sind diese in
-				einer VCS-Forge wie GitHub, GitLab oder Gitea gehostet, kann man zur
-				Bearbeitung des Wikis direkt aus den generierten Dateien zum entsprechenden
-				Online-Editor gelangen.</dd>
-			</dl>
-		</article>
-		<article id="Text">
-			<h1>Text</h1>
-			<ul>
-				<li>2020 - <a href="texte/riscv.pdf">Interleaved Multithreading für
-				RISC-V-Softcores</a> - Bachelorarbeit</li>
-				<li>2014 - <a href="texte/prag.pdf">Entwicklung des jüdischen Viertels in
-				Prag bis 1800</a> - Facharbeit (Abiturstufe)</li>
-			</ul>
-		</article>
-		<article id="Links">
-			<h1>Links</h1>
-			<ul>
-				<li><a href="https://github.com/tmahlburg" target="_blank" rel="noopener">
-					Mein Profil auf GitHub</a></li>
-				<li><a href="https://commons.wikimedia.org/wiki/File:CDC_6600.jc.jpg"
-				target="_blank" rel="noopener">
-					Hintergrundbild</a></li>
-			</ul>
-		</article>
-		</main>
-	</body>
+  -->
+  <meta name="description" content="Till Mahlburgs persönliche Webseite">
+  <meta property="og:title" content="Till Mahlburg">
+  <meta property="og:description" content=
+  "Till Mahlburgs persönliche Webseite">
+  <meta property="og:image" content="/background1080.jpg">
+  <meta property="og:image:alt" content=
+  "Bild einer CDC 6600, dem ersten Rechner, bei dem Interleaved Multithreading eingesetzt wurde.">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta property="og:url" content="https://tmahlburg.github.io">
+  <link rel="canonical" href="https://tmahlburg.github.io">
+  <meta name="theme-color" content="#000000">
+  <!-- Don't request a favicon -->
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="#Hallo">Hallo</a>
+      </li>
+      <!-- <li><a href="#Lebenslauf">Lebenslauf</a></li> -->
+      <li>
+        <a href="#Code">Code</a>
+      </li>
+      <li>
+        <a href="#Text">Text</a>
+      </li>
+      <!-- <li><a href="#Bild">Bild</a></li> -->
+      <li>
+        <a href="#Links">Links</a>
+      </li>
+      <!-- <li><a href="#Kontakt">Kontakt</a></li> -->
+    </ul>
+  </nav>
+  <main>
+    <article id="Hallo">
+      <h1>Hallo!</h1>
+      <p>Du bist auf der Webseite von Till Mahlburg gelandet. Ich studiere im
+      Moment Informatik im Master und arbeite nebenbei als wissenschaftliche
+      Hilfskraft im IT-Support an der Erziehungswissenschaft der Universität
+      Leipzig. Hier stelle ich <a href="#Code">Projekte</a> vor, die ich
+      entwickle, und <a href="#Text">Arbeiten</a>, die ich geschrieben
+      habe.</p>
+    </article>
+    <article id="Code">
+      <h1>Code</h1>
+      <dl>
+        <dt>
+          <a href="https://github.com/tmahlburg/jugendstadtplan" target=
+          "_blank" rel="noopener">jugendstadtplan</a>
+        </dt>
+        <dd>
+          Diese WebApp ermöglicht Jugendlichen die Erstellung und Verwaltung
+          eines eigenen Stadtplans. Darin können Orte eingezeichnet werden, an
+          denen sie sich wohlfühlen und gern aufhalten. Die Software entstand
+          in Zusammenarbeit mit der <a href="http://jugendimjacobiturm.de"
+          target="_blank" rel="noopener">offenen Jugendarbeit der evangelischen
+          Altstadtgemeinden Greifswalds</a>. Eine aktiv benutzte Version findet
+          sich unter <a href="https://jugendstadtplan-greifswald.de" target=
+          "_blank" rel="noopener">jugendstadtplan-greifswald.de</a>.
+        </dd>
+        <dt>
+          <a href="https://github.com/tmahlburg/picorv32-imt" target="_blank"
+          rel="noopener">picorv32-imt</a> (Entwicklung ruht)
+        </dt>
+        <dd>
+          Ein RISC-V-Prozessor für FPGAs, der im Rahmen meiner Bachelorarbeit
+          entstanden ist. Er basiert auf dem <a href=
+          "https://github.com/cliffordwolf/picorv32" target="_blank" rel=
+          "noopener">picorv32</a> und erweitert diesen um <a href=
+          "https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)#Interleaved_multithreading"
+          target="_blank" rel="noopener">Interleved Multithreading</a>. Leider
+          ist das Design aktuell nicht synthetisierbar. Wenn ich mal viel Zeit
+          habe, würde ich das gern noch erreichen.
+        </dd>
+        <dt>
+          <a href="https://github.com/ti-leipzig/sim-x-pll" target="_blank"
+          rel="noopener">sim-x-pll</a>
+        </dt>
+        <dd>Dieses Projekt simuliert den PLL auf den FPGAs der Xilinx 7-Series.
+        Entwickelt habe ich das Ganze im Rahmen einer Anstellung einer
+        studentischen Hilfskraftstelle bei der Technischen Informatik der Uni
+        Leipzig. Das Ziel war dabei die Unterstützung der Entwicklung einer
+        Open-Source-Toolchain für die Xilinx 7-Series.</dd>
+        <dt>
+          <a href="https://github.com/tmahlburg/kiep" target="_blank" rel=
+          "noopener">kiep</a> (Pre-Alpha)
+        </dt>
+        <dd>Ein Tool für die Kommandozeile, mit dem man Webartikel "für immer"
+        aufbewahren kann.</dd>
+        <dt>
+          <a href="https://github.com/tmahlburg/tfm" target="_blank" rel=
+          "noopener">tfm</a> (Alpha)
+        </dt>
+        <dd>Ein einfacher graphischer Datei-Manager, der das Qt-Toolkit
+        verwendet.</dd>
+        <dt>
+          <a href="https://github.com/tmahlburg/mkwiki" target="_blank" rel=
+          "noopener">mkwiki</a>
+        </dt>
+        <dd>Ein Skript, mit dem man ein statisches Wiki aus einem Ordner mit
+        Markdown-Dateien generieren kann. Sind diese in einer VCS-Forge wie
+        GitHub, GitLab oder Gitea gehostet, kann man zur Bearbeitung des Wikis
+        direkt aus den generierten Dateien zum entsprechenden Online-Editor
+        gelangen.</dd>
+      </dl>
+    </article>
+    <article id="Text">
+      <h1>Text</h1>
+      <ul>
+        <li>2020 - <a href="texte/riscv.pdf">Interleaved Multithreading für
+        RISC-V-Softcores</a> - Bachelorarbeit
+        </li>
+        <li>2014 - <a href="texte/prag.pdf">Entwicklung des jüdischen Viertels
+        in Prag bis 1800</a> - Facharbeit (Abiturstufe)
+        </li>
+      </ul>
+    </article>
+    <article id="Links">
+      <h1>Links</h1>
+      <ul>
+        <li>
+          <a href="https://github.com/tmahlburg" target="_blank" rel=
+          "noopener">Mein Profil auf GitHub</a>
+        </li>
+        <li>
+          <a href="https://commons.wikimedia.org/wiki/File:CDC_6600.jc.jpg"
+          target="_blank" rel="noopener">Hintergrundbild</a>
+        </li>
+      </ul>
+    </article>
+  </main>
+</body>
 </html>
