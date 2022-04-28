@@ -130,3 +130,14 @@ nav ul li {
         display: list-item;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    a {
+        color: cornflowerblue;
+    }
+    article, nav {
+        background-color: black;
+        border: 5px solid white;
+        color: white;
+    }
+}
